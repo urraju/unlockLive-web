@@ -46,9 +46,9 @@ export default function ChefsMenu() {
           </div>
         </div>
         {/* tab part  */}
-        <div className="flex justify-center items-center w-full">
+        <div className="flex justify-center items-center">
           <Tabs className={sanPro.className}>
-            <TabList>
+            <TabList >
               <Tab>All</Tab>
               <Tab>Burger</Tab>
               <Tab>Drinks</Tab>
@@ -61,11 +61,11 @@ export default function ChefsMenu() {
             {/* tab content  */}
 
             <TabPanel className='my-10'>
-              <div className="flex gap-6 items-center">
+              <div className="flex flex-col md:flex-row gap-6 items-center">
                 <Image src={chefs1} alt="" />
                 <Image src={chefs2} alt="" />
               </div>
-              <div className="flex gap-6 items-center mt-6">
+              <div className="flex flex-col md:flex-row gap-6 items-center mt-6">
               <Image src={chefs3} alt="" />
               <Image src={chefs4} alt="" />
               <Image src={chefs5} alt="" />
@@ -74,7 +74,7 @@ export default function ChefsMenu() {
 
             <TabPanel className='my-10'>
               
-              <div className="flex gap-6 items-center mt-6">
+              <div className="flex flex-col md:flex-row gap-6 items-center mt-6">
               <Image src={chefs3} alt="" />
               <Image src={chefs4} alt="" />
               <Image src={chefs5} alt="" />
@@ -83,7 +83,7 @@ export default function ChefsMenu() {
 
             <TabPanel className='my-10'>
               
-            <div className="flex gap-6 items-center">
+            <div className="flex flex-col md:flex-row gap-6 items-center">
                 <Image src={chefs1} alt="" />
                 <Image src={chefs2} alt="" />
               </div>
@@ -91,7 +91,7 @@ export default function ChefsMenu() {
 
             <TabPanel className='my-10'>
              
-            <div className="flex gap-6 items-center mt-6">
+            <div className="flex flex-col md:flex-row gap-6 items-center mt-6">
               <Image src={chefs3} alt="" />
               <Image src={chefs4} alt="" />
               <Image src={chefs5} alt="" />
@@ -99,7 +99,7 @@ export default function ChefsMenu() {
             </TabPanel>
 
             <TabPanel className='my-10'>
-              <div className="flex gap-6 items-center">
+              <div className="flex flex-col md:flex-row gap-6 items-center">
                 <Image src={chefs1} alt="" />
                 <Image src={chefs2} alt="" />
               </div>
@@ -109,7 +109,7 @@ export default function ChefsMenu() {
             
             <TabPanel className='my-10'>
               
-              <div className="flex gap-6 items-center mt-6">
+              <div className="flex flex-col md:flex-row gap-6 items-center mt-6">
               <Image src={chefs3} alt="" />
               <Image src={chefs4} alt="" />
               <Image src={chefs5} alt="" />
@@ -118,7 +118,7 @@ export default function ChefsMenu() {
 
             
             <TabPanel className='my-10'>
-              <div className="flex gap-6 items-center">
+              <div className="flex flex-col md:flex-row gap-6 items-center">
                 <Image src={chefs1} alt="" />
                 <Image src={chefs2} alt="" />
               </div>
@@ -128,7 +128,7 @@ export default function ChefsMenu() {
             
             <TabPanel className='my-10'>
                
-              <div className="flex gap-6 items-center mt-6">
+              <div className="flex flex-col md:flex-row gap-6 items-center mt-6">
               <Image src={chefs3} alt="" />
               <Image src={chefs4} alt="" />
               <Image src={chefs5} alt="" />

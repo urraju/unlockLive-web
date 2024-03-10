@@ -8,6 +8,7 @@ import WhyChose from '../WhyChose/WhyChose'
 import CoffeeMenu from '../CoffeeMenu/CoffeeMenu'
 import RecipeMenu from '../RecipeMenu/RecipeMenu'
 import ChefsMenu from '../ChefsMenu/ChefsMenu'
+import Footer from '../Footer/Footer'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <CoffeeMenu/>
       <RecipeMenu/>
       <ChefsMenu/>
+      <Footer/>
     </div>
   )
 }
