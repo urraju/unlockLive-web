@@ -1,0 +1,55 @@
+
+.swiper-pagination-current{
+    display: none !important;
+  }
+  .swiper-pagination-total{
+    display: none !important;
+  }
+  
+  .swiper-button-next{
+    left: 30px !important;
+
+     
+    
+    
+   
+  }
+  .swiper-button-prev{
+    left: 10px !important;
+     
+  }
+
+  
+.content{
+  background-color: rgba(0, 0, 0, 0.573);
+  position: absolute;
+  border-radius: 14px;
+  left: 0;
+  bottom: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+  transition: all 1.0s;
+  
+  
+}
+.box{
+  
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.box:hover .content{
+  bottom: 0;
+  
+}
+
+/* swiper slide  */
+.swiper-slide{
+  width: 300px;
+}
+  

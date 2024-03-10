@@ -1,0 +1,12 @@
+
+.swiper-pagination-bullet{
+    width: 10px !important;
+    height: 10px !important;
+    background: #86371C !important;
+    right: 4px !important;
+}
+
+ .wiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+    left: 6px !important;
+    
+}

@@ -1,0 +1,22 @@
+.bg-arrow {
+  background-color: #86371c;
+  height: 300px;
+  position: relative;
+  z-index: 00;
+}
+.bg-arrow::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  background-image: url("/assets/images/all_image/white_logo.png");
+}
+
+ 
