@@ -1,11 +1,13 @@
-
-"use client"
+"use client";
 // components/Dropdown.js
-import React, { useState } from 'react';
+import { IoIosArrowDown } from "react-icons/io";
+import localFont from "next/font/local";
 
-const Dropdown = ({ options, onSelect }) => {
-  const [selectedOption, setSelectedOption] = useState(null);
+const sanPro = localFont({
+  src: "../../font/Value Sans Pro/ValueSansPro-Regular.ttf",
+});
 
+const Dropdown = ({ options, onSelect,name }) => {
   const handleSelect = (option) => {
     setSelectedOption(option);
     onSelect(option);
@@ -13,9 +15,12 @@ const Dropdown = ({ options, onSelect }) => {
 
   return (
     <div className="dropdown">
-      <button className="dropdown-button">
-        {selectedOption ? selectedOption : 'Select an option'}
-      </button>
+      <div className={sanPro.className}>
+        {" "}
+        <button className="dropdown-button flex items-center gap-2 tex-[16px]  font-semibold">
+          Pages <IoIosArrowDown />
+        </button>
+      </div>
       <div className="dropdown-content">
         {options.map((option) => (
           <div key={option} onClick={() => handleSelect(option)}>

@@ -32,7 +32,7 @@ import recipe2 from "../../../assets/images/all_image/recipe-2.png";
 
 export default function RecipeMenu() {
   return (
-    <div className="my-20  bg-[#FFFAF2] md:h-[500px] flex">
+    <div className="my-20  bg-[#FFFAF2] h-full md:h-[500px">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row md:gap-16 gap-5 items-center">
        
         <div className="w-full md:w-[400px] ">
@@ -101,7 +101,7 @@ export default function RecipeMenu() {
                   <SwiperSlide className=" mr-6">
                     <div className={sanPro.className}>
                       <div className="box ">
-                        <Image className=""  src={recipe1} alt="" />
+                        <Image className="w-full"  src={recipe1} alt="" />
                         <div className="content  ">
                           <div className=" flex flex-col font-light text-sm   justify-center h-full list-disc">
                             <li>Pita bread or wraps</li>
@@ -115,7 +115,7 @@ export default function RecipeMenu() {
                   <SwiperSlide className=" mr-6">
                     <div className={sanPro.className}>
                       <div className="box ">
-                        <Image className=" "  src={recipe2} alt="" />
+                        <Image className="w-full "  src={recipe2} alt="" />
                         <div className="content  ">
                           <div className=" flex flex-col font-light text-sm   justify-center h-full list-disc">
                             <li>Pita bread or wraps</li>
@@ -129,7 +129,7 @@ export default function RecipeMenu() {
                   <SwiperSlide className=" mr-6">
                     <div className={sanPro.className}>
                       <div className="box ">
-                        <Image className=" "  src={recipe1} alt="" />
+                        <Image className=" w-full"  src={recipe1} alt="" />
                         <div className="content  ">
                           <div className=" flex flex-col font-light text-sm   justify-center h-full list-disc">
                             <li>Pita bread or wraps</li>
@@ -143,7 +143,7 @@ export default function RecipeMenu() {
                   <SwiperSlide className=" mr-6">
                     <div className={sanPro.className}>
                       <div className="box ">
-                        <Image className=" "  src={recipe2} alt="" />
+                        <Image className=" w-full"  src={recipe2} alt="" />
                         <div className="content  ">
                           <div className=" flex flex-col font-light text-sm   justify-center h-full list-disc">
                             <li>Pita bread or wraps</li>
@@ -157,7 +157,7 @@ export default function RecipeMenu() {
                   <SwiperSlide className=" mr-6">
                     <div className={sanPro.className}>
                       <div className="box ">
-                        <Image className=" "  src={recipe1} alt="" />
+                        <Image className=" w-full"  src={recipe1} alt="" />
                         <div className="content  ">
                           <div className=" flex flex-col font-light text-sm   justify-center h-full list-disc">
                             <li>Pita bread or wraps</li>
@@ -171,7 +171,7 @@ export default function RecipeMenu() {
                   <SwiperSlide className=" mr-6">
                     <div className={sanPro.className}>
                       <div className="box ">
-                        <Image className=" "  src={recipe2} alt="" />
+                        <Image className="w-full "  src={recipe2} alt="" />
                         <div className="content  ">
                           <div className=" flex flex-col font-light text-sm   justify-center h-full list-disc">
                             <li>Pita bread or wraps</li>
@@ -185,7 +185,7 @@ export default function RecipeMenu() {
                   <SwiperSlide className=" mr-6">
                     <div className={sanPro.className}>
                       <div className="box ">
-                        <Image className=" "  src={recipe1} alt="" />
+                        <Image className="w-full "  src={recipe1} alt="" />
                         <div className="content  ">
                           <div className=" flex flex-col font-light text-sm   justify-center h-full list-disc">
                             <li>Pita bread or wraps</li>
