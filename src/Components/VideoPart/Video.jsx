@@ -12,7 +12,7 @@ const sanPro = localFont({
 
 export default function Video() {
   return (
-    <div className="bg-[#FFFAF2] h-full md:h-[245px]  ">
+    <div className="bg-[#FFFAF2] h-full md:h-[245px] my-5 ">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 items-center gap-5 md:gap-20">
         {/* card 1  */}
         <div className="bg-[#86371c] h-[300px] rounded-b-lg flex items-end  ">

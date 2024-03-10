@@ -17,8 +17,8 @@ export default function Navbar() {
   return (
     <div>
       <div className={sanPro.className}>
-        <div>
-          <div className="flex items-center z-50  justify-between  py-4 max-w-screen-xl mx-auto">
+        <div className="border-b">
+          <div className="flex items-center z-50  justify-between  py-5 max-w-screen-xl mx-auto">
             <div className=" ">
               <div className="block lg:hidden ">
                 <div className="drawer drawer-end">
