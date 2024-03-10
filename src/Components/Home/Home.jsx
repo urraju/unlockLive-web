@@ -7,6 +7,7 @@ import Video from '../VideoPart/Video'
 import WhyChose from '../WhyChose/WhyChose'
 import CoffeeMenu from '../CoffeeMenu/CoffeeMenu'
 import RecipeMenu from '../RecipeMenu/RecipeMenu'
+import ChefsMenu from '../ChefsMenu/ChefsMenu'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <WhyChose/>
       <CoffeeMenu/>
       <RecipeMenu/>
+      <ChefsMenu/>
     </div>
   )
 }

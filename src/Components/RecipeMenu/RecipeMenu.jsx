@@ -15,7 +15,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Pagination  } from "swiper/modules";
 
 // font image import
 import localFont from "next/font/local";
